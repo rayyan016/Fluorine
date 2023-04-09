@@ -1,5 +1,8 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import { SocialIcon } from "react-social-icons";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 
 export default function NavBar() {
   return (
@@ -49,6 +52,32 @@ export default function NavBar() {
               About Me!
             </NavLink>
           </nav>
+
+          <div className="inline-flex py-3 px-3 my-6">
+          {/* <FontAwesomeIcon icon={faHashnode} style={{color: "#1a5ad1",}} /> */}
+            <SocialIcon
+              url="https://github.com/rayyan016"
+              className="mr-4"
+              target="_blank"
+              fgColor="#fff"
+              style={{ height: 35, width: 35 }}
+            />
+            <SocialIcon
+              url="https://www.linkedin.com/in/rayyan-aslam/"
+              className="mr-4"
+              target="_blank"
+              fgColor="#fff"
+              style={{ height: 35, width: 35 }}
+            />
+            <SocialIcon
+              url="https://hashnode.com/@RayyanAslam"
+              className="mr-4"
+              target="_blank"
+              fgColor="#fff"
+              style={{ height: 35, width: 35 }}
+            />
+          </div>
+          
         </div>
       </header>
     </>
