@@ -2,6 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import { SocialIcon } from "react-social-icons";
 
+
 export default function NavBar() {
   return (
     <>
@@ -52,7 +53,7 @@ export default function NavBar() {
           </nav>
 
           <div className="inline-flex py-3 px-3 my-6">
-            {/* <FontAwesomeIcon className="rounded-full p-2 mr-4" icon={faHashnode} size="xl" style={{ color: "#3b5e9b" }} /> */}
+          {/* <FontAwesomeIcon icon={faHashnode} style={{color: "#1a5ad1",}} /> */}
             <SocialIcon
               url="https://github.com/rayyan016"
               className="mr-4"
@@ -69,22 +70,18 @@ export default function NavBar() {
             />
             <SocialIcon
               url="https://hashnode.com/@RayyanAslam"
-              network=""
               className="mr-4"
               target="_blank"
               fgColor="#fff"
               style={{ height: 35, width: 35 }}
             />
           </div>
+          
         </div>
       </header>
     </>
   );
 }
 
-// npm i --save @fortawesome/fontawesome-svg-core
-//npm i --save @fortawesome/react-fontawesome@latest
-//npm i --save @fortawesome/free-brands-svg-icons
-
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { faHashnode } from "@fortawesome/free-brands-svg-icons";
+// className={(navData) => navData.isActive ? "active" : "" }
+// className="inline-flex items-center py-3 px-3 my-6 rounded text-red-200 hover:text-green-800"
