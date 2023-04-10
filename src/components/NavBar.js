@@ -24,7 +24,7 @@ export default function NavBar() {
               className={(navData) =>
                 navData.isActive
                   ? "inline-flex items-center py-3 px-3 my-6 rounded text-red-100 bg-cyan-900 hover:text-green-300"
-                  : "inline-flex items-center py-3 px-3 my-6 rounded text-red-200 hover:text-green-300"
+                  : "inline-flex items-center py-3 px-3 my-6 rounded text-white hover:text-green-300"
               }
             >
               Blog Posts
@@ -34,7 +34,7 @@ export default function NavBar() {
               className={(navData) =>
                 navData.isActive
                   ? "inline-flex items-center py-3 px-3 my-6 rounded text-red-100 bg-cyan-900 hover:text-green-300"
-                  : "inline-flex items-center py-3 px-3 my-6 rounded text-red-200 hover:text-green-300"
+                  : "inline-flex items-center py-3 px-3 my-6 rounded text-white hover:text-green-300"
               }
             >
               Projects
@@ -44,7 +44,7 @@ export default function NavBar() {
               className={(navData) =>
                 navData.isActive
                   ? "inline-flex items-center py-3 px-3 my-6 rounded text-red-100 bg-cyan-900 hover:text-green-300"
-                  : "inline-flex items-center py-3 px-3 my-6 rounded text-red-200 hover:text-green-300"
+                  : "inline-flex items-center py-3 px-3 my-6 rounded text-white hover:text-green-300"
               }
             >
               About Me!
