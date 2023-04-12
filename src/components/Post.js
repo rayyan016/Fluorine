@@ -2,18 +2,20 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import client from "../client.js";
 
-
-
-
 export default function Post() {
   const [postData, setPost] = useState(null);
 
-
-
   useEffect(() => {
+    // const query = '*[_type == "post"]';
+    // const params = {};
+    // console.log("iuboisuyfberfbusby");
+    // client.fetch(query, params).then((posts) => {
+    //   console.log(posts.length);
+    // });
 
-    client.fetch(
-      `*[_type == "post"]{
+    client
+      .fetch(
+        `*[_type == "post"]{
             title,
             slug,
             mainImage{
@@ -24,7 +26,7 @@ export default function Post() {
                 alt
             }
         }`
-    )
+      )
       .then((data) => setPost(data))
       .catch(console.error);
   }, []);
