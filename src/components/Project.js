@@ -1,8 +1,12 @@
-import React from 'react';
+import React, { useState, useEffect } from "react";
+import client from "../client.js";
 
 export default function Project(){
+
+    
+
     return(
     <>
-        <h1>Project Page</h1>
+        <h1>Project Pagedfdhd</h1>
     </>)
 }
