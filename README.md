@@ -1,6 +1,7 @@
 # My Portfolio Website
 
-Welcome to my portfolio website! This website is built using React and showcases my skills, projects, and experiences.
+Welcome to my portfolio website! This website is built using React and showcases my skills, projects, and experiences.  
+Check out my portfolio at [https://perseusportfolio.netlify.app/](https://perseusportfolio.netlify.app/)!  
 
 ## Table of Contents
 
@@ -25,9 +26,9 @@ This website is built using the following technologies:
 To get started with this project, you'll need to clone the repository to your local machine and install the necessary dependencies.
 
 ### Installation
-`git clone https://github.com/rayyan016/Fluorine.git`
-`cd Fluorine`
-`npm install`
+`git clone https://github.com/rayyan016/Fluorine.git`  
+`cd Fluorine`  
+`npm install`  
 
 
 ## Usage
